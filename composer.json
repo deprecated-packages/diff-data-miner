@@ -1,0 +1,22 @@
+{
+    "name": "migrify/diff-data-miner",
+    "description": "Get hidden valuable data from GitHub pull-request diff and feed it to Rector",
+    "license": "MIT",
+    "bin": "bin/diff-data-miner",
+    "require": {
+        "php": "^7.2",
+        "symfony/dependency-injection": "^4.4|^5.0",
+        "symfony/console": "^4.4|^5.0",
+        "symfony/http-kernel": "^4.4|^5.0",
+        "symfony/yaml": "^4.4|^5.0",
+        "nette/utils": "^3.1",
+        "symplify/package-builder": "^7.3.10|^8.0",
+        "symplify/autowire-array-parameter": "^7.3.10|^8.0",
+        "symplify/smart-file-system": "^7.3.10|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Migrify\\DiffDataMiner\\": "src"
+        }
+    }
+}
